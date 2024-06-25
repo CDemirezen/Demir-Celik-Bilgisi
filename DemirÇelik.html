@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demir ve Çelik Web Sitesi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Demir ve Çelik Bilgisi</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Anasayfa</a></li>
+                    <li><a href="#iron">Demir Nedir?</a></li>
+                    <li><a href="#steel">Çelik Nedir?</a></li>
+                    <li><a href="#applications">Kullanım Alanları</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Demir ve Çelik Bilgisi</h2>
+            <p>Demir ve çelik endüstrisi hakkında bilgiler sunan web sitesine hoş geldiniz.</p>
+            <a href="#iron" class="btn">Demir Nedir?</a>
+            <a href="#steel" class="btn">Çelik Nedir?</a>
+        </div>
+    </section>
+
+    <section id="iron">
+        <div class="container">
+            <h2>Demir Nedir?</h2>
+            <p>Demir, kimyasal sembolü Fe olan ve atom numarası 26 olan bir metaldir. Geniş bir endüstriyel kullanım alanına sahiptir.</p>
+        </div>
+    </section>
+
+    <section id="steel">
+        <div class="container">
+            <h2>Çelik Nedir?</h2>
+            <p>Çelik, demirin karbon ile alaşımı sonucunda elde edilen bir metaldir. Yüksek dayanıklılığı ve çeşitli endüstriyel kullanımları vardır.</p>
+        </div>
+    </section>
+
+    <section id="applications">
+        <div class="container">
+            <h2>Kullanım Alanları</h2>
+            <p>Demir ve çelik, inşaat, otomotiv, makine imalatı, ev aletleri ve birçok endüstriyel ürünün üretiminde yaygın olarak kullanılır.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>İletişim</h2>
+            <p>Bize ulaşmak için aşağıdaki formu doldurabilir veya info@demircelik.com adresine e-posta gönderebilirsiniz.</p>
+            <form action="#" method="POST">
+                <label for="name">Adınız:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-posta Adresiniz:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mesajınız:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Demir ve Çelik Bilgisi. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
